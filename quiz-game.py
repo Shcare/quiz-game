@@ -55,6 +55,6 @@ def run_quiz(questions):
         else:
             print('Wrong, the correct answer was', question['answer'],'\n')   
 
-    print (f'you got {score} out of {len(questions)} questions correct.')
+    print (f'You got {score} out of {len(questions)} questions correct.')
 
 run_quiz(questions)
